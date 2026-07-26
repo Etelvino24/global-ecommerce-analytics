@@ -170,9 +170,9 @@ Comunicação executiva: relatório de 15 slides em PowerPoint, com a estrutura 
  ``` 
  ## 📎 Ficheiros
 
-- [Relatório executivo (PDF)](./relatorio/Relatorio Analise Rentabilidade.pdf)
+- [Relatório executivo (PDF)](./relatorio/Relatorio_Analise_Rentabilidade.pdf)
 - [Scripts SQL](./sql)
 - [Dashboard — Análise exploratória (.pbix)](./power-bi/global_ecommerce_sales.pbix)
 - [Dashboard — Decomposição (.pbix)](./power-bi/Decomposição.pbix)
-- [Documento de contextualização do projeto (PDF)](./documentacao/Documento de Contextualização do Projeto.pdf)
+- [Documento de contextualização do projeto (PDF)](./documentacao/Documento_de_Contextualização_do_Projeto.pdf)
     
