@@ -2,7 +2,6 @@
 
 ## 📊 Análise de Rentabilidade — E-commerce Global
 
-🎯 **`Problema de negócio`**
 ## 🎯 Problema de negócio
 
 Antes de investigar qualquer causa específica, conduzi uma análise exploratória estruturada em
