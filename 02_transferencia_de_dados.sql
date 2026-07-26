@@ -1,11 +1,10 @@
--- ============================================================
 -- PROJECTO:   Global E-Commerce Sales & Customer Data
 -- FICHEIRO:   02_transferencia_de_dados
 -- OBJECTIVO:  Transferir os dados da tabela original
 --             global_central para as 4 tabelas normalizadas
 -- AUTOR:      Etelvino Ngola Joaquim
 -- DATA:       2026-05-16
--- ============================================================
+-- ________________________________________________________________________________________________________________
 --
 -- PRÉ-REQUISITOS:
 --   - 01_criacao_das_tabelas.sql já executado com sucesso
@@ -29,7 +28,7 @@
 -- EM CASO DE ERRO DE DUPLICADO:
 --   Limpar todas as tabelas e recomeçar do passo 1:
 --   TRUNCATE TABLE location, products CASCADE;
--- ============================================================
+-- ________________________________________________________________________________________________
 
 
 -- ------------------------------------------------------------
@@ -133,7 +132,3 @@ JOIN customers c ON c.customer_name    = g.customer_name
                 AND c.customer_segment = g.customer_segment
 -- Recuperar o product_id gerado no passo 2
 JOIN products  p ON p.product_name     = g.product_name;
-
-
-
--- ============================================================
