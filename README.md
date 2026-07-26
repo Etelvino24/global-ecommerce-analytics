@@ -70,13 +70,11 @@ Comunicação executiva: relatório de 15 slides em PowerPoint, com a estrutura 
 
 ## 📈 Dashboard
 ### Fase 1 — Análise exploratória (diagnóstico multidimensional)
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
-<img width="1357" height="767" alt="image" src="https://github.com/user-attachments/assets/608d2514-63eb-46ea-80ea-10b9aa1e7b65" />
-
+<img width="986" height="592" alt="image" src="https://github.com/user-attachments/assets/8b9f0e64-c5bc-4222-a6bb-dac1c43b026c" />
+<img width="977" height="587" alt="image" src="https://github.com/user-attachments/assets/b2a1fd63-6129-4517-9404-4bd1fa045d80" />
+<img width="980" height="591" alt="image" src="https://github.com/user-attachments/assets/5fcd659f-5723-47e6-8cc1-87a79cabaddf" />
+<img width="981" height="591" alt="image" src="https://github.com/user-attachments/assets/b8cb1613-b299-40ff-b8d5-b307f1f612f9" />
+<img width="975" height="584" alt="image" src="https://github.com/user-attachments/assets/e6e7babf-1663-4d2c-8641-5fd6b971e8fe" />
 
 ### 💡 Descobertas — Análise exploratória
 
@@ -109,16 +107,16 @@ Comunicação executiva: relatório de 15 slides em PowerPoint, com a estrutura 
   no Q4 2025, respetivamente — os dois sinais que motivaram as perguntas 3.2 e 3.3 da decomposição.
 
 ## 🔎 Fase 2 — Decomposição (motivada pelos resultados da Fase 1)
-![alt text](image-5.png)
-![alt text](image-6.png)
-![alt text](image-8.png)
-![alt text](image-9.png)
-![alt text](image-10.png)
-![alt text](image-11.png)
-![alt text](image-12.png)
-![alt text](image-13.png)
-![alt text](image-14.png)
-![alt text](image-15.png)
+<img width="985" height="544" alt="image" src="https://github.com/user-attachments/assets/4f6138c0-2b77-404d-a191-21956a217041" />
+<img width="985" height="542" alt="image" src="https://github.com/user-attachments/assets/b119c390-ee7e-49fa-813e-1c61e0a0dc25" />
+<img width="982" height="543" alt="image" src="https://github.com/user-attachments/assets/e4dbe2b8-9b1a-4307-988d-38db8f859dc3" />
+<img width="976" height="543" alt="image" src="https://github.com/user-attachments/assets/0e3a0752-4d67-41c1-b27d-2b56dbcb74c8" />
+<img width="979" height="544" alt="image" src="https://github.com/user-attachments/assets/b73cbca8-c712-4ccd-9229-355a606d9660" />
+<img width="979" height="539" alt="image" src="https://github.com/user-attachments/assets/d91a4ec6-2c82-459b-991a-3fa8afd4b21c" />
+<img width="983" height="545" alt="image" src="https://github.com/user-attachments/assets/257bf063-855c-4aad-96b5-5c97b674960b" />
+<img width="983" height="542" alt="image" src="https://github.com/user-attachments/assets/bc3d298f-3b0e-4dff-902a-0962591dda91" />
+<img width="983" height="544" alt="image" src="https://github.com/user-attachments/assets/839da62d-7a8b-4ab7-b1a8-b144d418fefc" />
+<img width="976" height="545" alt="image" src="https://github.com/user-attachments/assets/c9fc8aed-2c9b-4d2e-8f6c-02afeb88fed3" />
 
 ### 💡 Descobertas — Decomposição
 
