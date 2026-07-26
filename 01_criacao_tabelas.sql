@@ -1,4 +1,3 @@
--- ============================================================
 -- PROJECTO:   Global E-Commerce Sales & Customer Data
 -- FICHEIRO:   01 Criação das tabelas
 -- OBJECTIVO:  Normalizar a tabela flat global em 4 tabelas
@@ -6,7 +5,7 @@
 -- AUTOR:      Etelvino Ngola Joaquim
 -- DATA:       2026-05-16
 
--- ============================================================
+-- ___________________________________________________________________________________________________________
 --
 -- CONTEXTO:
 --   O dataset original é composto por uma única tabela flat
@@ -17,12 +16,12 @@
 --
 -- VALIDAÇÃO PRÉVIA DO DATASET:
 --   Antes de normalizar, foram validados os seguintes pontos:
---   ✅ order_id         → único por pedido (2.000 registos)
---   ✅ product_name     → 40 produtos consistentes por categoria
---   ✅ region/country   → 20 países em 5 regiões sem inconsistências
---   ⚠️ customer_name   → sem ID único no dataset original
---   ⚠️ customer_segment → inconsistente por nome (ignorado como atributo fixo)
---   ⚠️ total_sales     → fórmula documentada não corresponde ao valor real,
+--    order_id         → único por pedido (2.000 registos)
+--    product_name     → 40 produtos consistentes por categoria
+--    region/country   → 20 países em 5 regiões sem inconsistências
+--    customer_name   → sem ID único no dataset original
+--    customer_segment → inconsistente por nome (ignorado como atributo fixo)
+--    total_sales     → fórmula documentada não corresponde ao valor real,
 --                         usar o valor directamente sem recalcular
 --
 -- DESCOBERTA — product_cost:
@@ -63,7 +62,7 @@
 --   3. customers    → depende de regions
 --   4. orders       → depende de customers e products
 --
--- ============================================================
+-- _________________________________________________________________________________________________________
 
 
 -- ------------------------------------------------------------
@@ -150,19 +149,6 @@ CREATE TABLE orders (
     product_cost    DECIMAL(10,2)   GENERATED ALWAYS AS (total_sales - shipping_cost - profit) STORED,                    
     payment_method     VARCHAR(50)     NOT null    
 );
-
-
--- ============================================================
--- RESUMO FINAL
--- ============================================================
 --
---  Tabela      | Tipo     | PK                    | FKs
---  ------------|----------|-----------------------|------------------
---  location    | entidade | country (VARCHAR)     | —
---  products    | entidade | product_id (IDENTITY) | —
---  customers   | entidade | customer_id (INT)     | location
---  orders      | evento   | order_id (VARCHAR)    | customers, products
---
-
 --
 --  Próximo passo: 02 transferencia_de_dados
