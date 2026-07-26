@@ -75,6 +75,8 @@ Comunicação executiva: relatório de 15 slides em PowerPoint, com a estrutura 
 ![alt text](image-2.png)
 ![alt text](image-3.png)
 ![alt text](image-4.png)
+<img width="1357" height="767" alt="image" src="https://github.com/user-attachments/assets/608d2514-63eb-46ea-80ea-10b9aa1e7b65" />
+
 
 ### 💡 Descobertas — Análise exploratória
 
