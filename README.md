@@ -150,9 +150,29 @@ Comunicação executiva: relatório de 15 slides em PowerPoint, com a estrutura 
   desconto, ao contrário do padrão mais comum. Concentrado em Furniture (77%), liderado por Reino
   Unido, França e Itália.
 
-  ## 📂 Estrutura deste projeto
-  ├── sql/                  → scripts de criação, ETL e análise (numerados por ordem de execução)
-├── power-bi/             → ficheiros .pbix dos dashboards
-├── relatorio/             → relatório executivo (pptx + pdf)
-├── documentacao/          → documento de contextualização do projeto
-└── imagens/               → capturas de ecrã usadas neste README
+## 📂 Estrutura deste projeto
+
+ ```
+  ├── sql/
+  │   ├── 01_criacao_tabelas.sql
+  │   ├── 02_transferencia_de_dados.sql
+  │   ├── 03_analise_rentabilidade.sql
+  │   └── 04_analise_decomposicao.sql
+  |
+  ├── power-bi/
+  │   ├── global_ecommerce_sales.pbix
+  │   └── decomposicao.pbix
+  |
+  ├── relatorio/
+  │   └── relatorio-analise-rentabilidade.pdf
+  └── contextualizacao-projeto.pdf  documentacao/
+     └── contextualizacao-projeto.pdf
+ ``` 
+ ## 📎 Ficheiros
+
+- [Relatório executivo (PDF)](./relatorio/relatorio-analise-rentabilidade.pdf)
+- [Scripts SQL](./sql)
+- [Dashboard — Análise exploratória (.pbix)](./power-bi/global_ecommerce_sales.pbix)
+- [Dashboard — Decomposição (.pbix)](./power-bi/decomposicao.pbix)
+- [Documento de contextualização do projeto (PDF)](./documentacao/contextualizacao-projeto.pdf)
+    
